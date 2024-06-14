@@ -1,0 +1,452 @@
+
+html {font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+body{
+margin: 0;
+font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 1.5rem;
+font-weight: 400;
+display: flex;
+background-color: #000;
+
+}
+
+.pai {   
+    width: 13%;
+    height: 100vh;
+    background: #000;
+    padding: 30px;
+    text-align: left;
+    position: sticky;
+top: 0;}
+main { width: 87%;}
+
+#frase {font-size: 20px;
+color: #fff;
+font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.home { display: block;
+    padding: 4px 0;
+    color: #fff;
+    font-size: .1rem;
+    font-size: 0.8rem;}
+
+#welcome {
+           height: 100vh;
+text-align: center;
+           color: white;
+           background-color: rgba(0, 0, 0, 45%);
+           display: flex;
+           
+           }
+
+#welcome div { width: 80%;
+               margin: auto;}
+
+
+
+
+#frase3 { font-size: 64px;
+font-family: 'Oswald', arial, sans-serif;
+font-weight: 500;
+display: block;
+text-align: center;
+margin: 0;}
+
+
+.btn{color: white;
+    text-decoration: none;
+    padding: 4px;
+
+}
+
+#frase4{font-size: 20px;
+line-height: 145%;
+padding: 9px;
+font-weight: 300;
+font-family:"Quicksand" ;
+}
+
+.bts1{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background-color: #df0e62;
+    border-radius: 30px;
+    border-color: #df0e62;}
+    
+    #bts1{font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color: #fff;
+        border: solid transparent;}
+
+.btn:hover{color: #df0e62;}
+
+#section{
+    justify-items: center;
+    background-image: url(img/img_9.jpg);
+    background-size: cover;
+background-attachment: fixed;
+}
+#icon{
+    width: 7.53px;
+    height: 13px;
+    padding: 10px;
+}
+#icon2{
+    width: 11.89px;
+    height: 13px;
+    padding: 10px;
+}
+#icon3{
+    width: 10.98px;
+    height: 13px;
+    padding: 10px;
+}
+#lista{
+    padding: 4px 0;
+}
+
+    #fotos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: black;
+        row-gap: 6px;
+    }
+    
+    #fotos div{
+        width: 33%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #fotos img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: 1s;
+    }
+    
+    #fotos svg{
+        fill: white;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        height: 30px;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        transition: 1s;
+    }
+    
+    #fotos div:hover svg{
+        top: 50%;
+        opacity: 1;
+    }
+    
+    #fotos div:hover img{
+        filter: brightness(50%);
+    }
+    #random{ color: #fff;
+    text-align: center;}
+
+    #jorge{height: 166.25px;
+    width: 166.25px;
+border-radius: 100px;
+justify-content: center;
+display: flex-end;}
+
+#ht{ font-size: 64px;
+color: #fff;
+font-family: "Oswald", arial, sans-serif;
+margin: 0px 0px 64px;}
+#sectiontest{
+    padding: 112px 0px;
+}
+#jean{ font-size: 16px;
+   
+color: #fff;}
+
+.lorem{color: gray;}
+#biografia{ background-color: #1a1a1a;
+    color: #fff;
+
+
+    margin:64px;
+    font-size: 64px;
+    padding: 170px;}
+
+#id{
+    height:300px;
+    width: 300px;
+}
+.h11{font-size: 35px;
+margin:  8px;}
+.h12{font-size: 16px;
+    margin: 16px;}
+    
+    .txtV{
+        display: flex ;
+        flex-direction: column;
+      }
+      #check { display: flex;
+      margin-bottom: 150px;}
+      
+      
+      #principal{
+      background-color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      }
+      #principal1{
+        display: flex;
+        flex-direction: column;}
+      .check svg { height: 22px;        }
+
+      .check ul { list-style-type: none;}
+      
+      .check li{color: white;
+      opacity: 60%;}
+      
+      .check{display: flex;
+    font-size: 16px;}
+      
+      .spaço{padding: 20px;}
+
+      .cor{
+        color: #df0e62;
+        text-decoration: none;
+
+      }
+      .BLOG-1{
+        margin-top: 96px;
+        font-family: "Oswald";
+        color: white;
+        font-size: 64px;
+        margin-left: 77px;
+
+      }
+      
+      .hi{
+        font-family: "Oswald";
+        color: white;
+        font-size: 28px;
+      }
+      
+      #pessoa2{
+        height: 363.5px;
+      }
+      
+      .rosa{
+       background-color: #df0e62;
+       height: 4px;
+       width: 100px;
+       position: absolute;
+      }
+      
+      .link{
+        color:#df0e62;
+        text-decoration: none;
+      }
+  
+
+
+      .imgblog{
+       height: 210px;
+       width: 280px;
+       object-fit: cover;
+      overflow: hidden;
+      }
+
+      
+    
+      
+      .blogtxt{
+        font-size: 24px;
+        font-family: "Oswald";
+        color: white;
+        margin-left: 50px;
+      }
+      
+      .txtloremBLOG{
+        color: #808080;
+        margin: 16px;
+        font-family: "Quicksand";
+        margin-left: 50px;  
+        font-size: 16px;
+      }
+      
+      #blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 270px;
+        margin-bottom: 210px;
+      }
+      
+      #tituloblog{
+        padding-left: 214px;
+      }
+      #espaco{
+       background-color: #df0e62;
+      }
+      .imgbio{
+      display: flex;
+      flex-direction: row;
+      padding: 23px;
+      padding-right: 352px;
+      }
+      
+      #paginas{
+        display: flex;
+        flex-direction: row;
+        padding-right: 290px;
+        padding-top: 50px;
+      }
+      
+      #contato{
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #contact{
+        font-family: "Oswald";
+        color: white;
+        font-size: 64px;
+        margin-right: 560px;
+        margin-top: 100px
+      }
+      
+      #caixastxt{
+        color: #ffffff;
+        font-family: "Quicksand";
+        background-color: #1a1a1a00;
+      }
+      
+      label {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      input {
+        border: none;
+        border-bottom: 1px solid white;
+      
+        background: transparent;
+        outline: none;
+      
+        padding: 5px;
+      }
+      
+      textarea {
+        border: none;
+        border-bottom: 1px solid white;
+      
+        background: transparent;
+        outline: none;
+      }
+      
+      .name{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+      }
+      
+      #forms{
+        height: 700px;
+        background-color: #1a1a1a;
+        color: white;
+        padding: 112px;
+      }
+      
+      .texto{
+        font-family: "quicksand";
+      }
+      
+      #bts2{font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color: #fff;
+        border: solid transparent;}
+      #primeiro{
+        margin-right: 2.5px;
+        width: 380px;
+        height: 72px;
+      }
+      
+      #segundo{
+        margin-right: 2.5px;
+        width: 380px;
+        height: 72px;
+      }
+      
+      #terceiro{
+      margin-right: 2.5px;
+      width: 760px;
+      height: 72px;
+      }
+      
+      #txtloremCONTATO{
+        color: #808080;
+        font-family: "Quicksand";
+        margin-top: 20px;
+        font-size: 13.3px;
+      }
+      
+      #contato a{
+          display: inline-block;
+          background-color: #df0e62;
+          width: 168px;
+          height: 53px;
+          border-radius: 35px;
+          line-height: 53px;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 30px;
+      }
+      
+      #coracao{
+        background-color: #000000;
+        color: white;
+        display: flex;
+      
+        justify-content: center;
+        padding-top: 60px;
+        height: 139.19px;
+        font-family: "quicksand";
+        font-size: 16px;
+      }
+      
+      #coracao svg{
+        width: 16px;
+        height: 16px;
+        fill: red
+      
+      }
+      .quicksand-uniquifier{
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+      }
+      
+      
+      .oswald-uniquifier {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+      
+  
+      
